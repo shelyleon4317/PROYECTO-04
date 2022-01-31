@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- hoja de stylos materialize -->
+  <link type="text/css" rel="stylesheet" href="../vendors/materialize/css/materialize.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- hoja de stylo css -->
+  <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <title>LEDTS</title>
+</head>
+<body >
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <img src="../assets/images/imageonline-co-transparentimage.png" alt=""class="brand-logo left img-logo">
+        <ul class="right show-on-small hide-on-large-only">
+          <li><a href="profile.html"  class="usersComent"></a></li>
+          <li><img class="comentsPhoto img-perfil"></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="profile.html"  id="nameUsers"></a></li>
+          <li><img class=" img-perfil comentsPhoto"></li>
+          <li><a href="home.html" ><i class="fa fa-bars icon white-text"></i>&nbsp;Home</a></li>
+          <li><a href="profile.html"><i class="fa fa-comments icon white-text"></i></a></li>
+          <li><a id="friend-active"><i class="fa fa-user icon white-text"></i></a></li>
+          <li><a href="iniciarSesion.html">Close</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="content-body">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4 hide-on-small-only">
+          <div class="friend">
+            <h5 class="grey-text"> Friends</h5>
+            <input type="text" class="validate input-search"><i class="fa fa-search icon right icon-search"></i>
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img src="../assets/images/view2.png" alt="" class="img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p id="nameFriend">Ana Mendoza</p>
+                </div>
+                <div class="col s3">
+                  <button  class="btn-add icon-btn"><i class="fa fa-user-plus icon"></i></button>
+                  <button id="btn-friend" class="icon-btn hide gradient">Amigos</button>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img id="friend" src="../assets/images/perfil1.jpg" alt="" class="circle  img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p>Rossi Rodriguez Guevara</p>
+                </div>
+                <div class="col s3">
+                  <button  class="btn-add icon-btn"><i class="fa fa-user-plus icon"></i></button>
+                  <button id="btn-friend" class="icon-btn hide">Amigos</button>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img src="../assets/images/perfil3.jpg" alt="" class="img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p>Carla Nuñez Pinto</p>
+                </div>
+                <div class="col s3">
+                  <button id="btn-add" class="icon-btn"><i class="fa fa-user-plus icon"></i></button>
+                  <button id="btn-friend" class="icon-btn hide">Amigos</button>
+                </div>
+              </div>
+              <div class="divider"></div>
+            </div>
+          </div>
+          <div class="group">
+            <h5 class="gray-text"> Group</h5>
+            <input type="text" class="validate input-search"><i class="fa fa-search icon right icon-search"></i>
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img src="https://1.bp.blogspot.com/-_o6TM1bMSfw/XyNCVnRZq9I/AAAAAAABgh0/LQox6hhYZIcKw8MVkvzx126G9_jl688JACLcBGAsYHQ/s349/Club%2Bde%2Blectura%2Bvirtual%2Bpara%2Bj%25C3%25B3venes.jpeg" alt="" class="img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p>Club de Lectura Juvenil</p>
+                </div>
+                <div class="col s3">
+                  <button class="icon-btn"><i class="fa fa-plus icon"></i></button>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img src="https://ambitocultural.es/wp-content/uploads/2019/01/club-lectura-madrid.jpg" alt="" class="img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p>Club de Lectura de Madrid</p>
+                </div>
+                <div class="col s3">
+                  <button class="icon-btn"><i class="fa fa-plus icon"></i></button>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="row valign-wrapper">
+                <div class="col s3">
+                  <img src="https://3.bp.blogspot.com/-EXXWbOrZkhI/VrDw6EHGI5I/AAAAAAAAets/6Z4f06nV5IY/s1600/C%25C3%25B3mo%2Bpreparar%2Bun%2Bclub%2Bde%2Blectura%2Ben%2Buna%2Bbiblioteca%2Bescolar-1.jpg" alt="" class="img-perfil"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s6">
+                  <p>Biblioteca Escolar - Club de Lectura</p>
+                </div>
+                <div class="col s3">
+                  <button class="icon-btn"><i class="fa fa-plus icon"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m8">
+          <div class="border-post">
+            <form id="new-publicacion">
+              <textarea id="new-text" class="post-text" placeholder="Whats in your mind today?"></textarea>
+            </form>
+            <div class="post">
+              <button id="btn-text"  type="submit" class="btn right" disabled>Post</button>
+              <ul>
+                <li class="inline" id='file-select'><a href="#"><i class="fa fa-camera icon "></i> </a></li>
+                <li class="inline"><a href="#"><i class="fa fa-film icon"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- agregar publicacion -->
+          <div id="publicacion">
+          </div>
+          <!-- publicando imagenes -->
+          <input id='file' name='file' type='file' class="hide">
+          <!-- fin de imagen publicada -->
+          <div class="col s12 m12 border-post">
+            <div id="public-header" class="col s12 m12 ">
+              <br>
+              <div class="col s2 m2 ">
+                <img alt="" class="comentsPhoto img-perfil">
+              </div>
+              <div class="col s10 m10">BIBLIOTECA ESCOLAR - CLUB DE LECTURA<br>
+                <span class="grey-text">Publicado a las 12:36am</span>
+                <br> 
+                <p>#Repost de guiainfantil.com</p>
+              </div>
+              <div class="col s12 m12 divider"></div>
+            </div>
+            <div id="public-body" class="col s12 m12 ">
+              <div class="text-public center">
+                <img src="https://static.guiainfantil.com/media/16522/cuento-pictograma-ninos.jpg" class="img-publicacion" alt="">
+              </div>
+            </div>
+            <div class="col s12 m12 group-icon">
+              <a><i class="fa fa-thumbs-o-up icon-public" id="icon-like"></i></a>
+              <a href="#"><i class="fa fa-edit icon-public"></i></a>
+              <a><i class="fa fa-share icon-public"></i></a>
+              <p class="right grey-text" id="contador"></p>
+              <div class="col s12 m12 divider"></div>
+              <br><br>
+              <div id="add-comment" class="col s12 m12">
+                <div class="col s1 m1">
+                  <img src="../assets/images/perfil3.jpg" alt="" class="img-comment">
+                </div>
+                <p class="col s11 m11 ">Muy Hermoso Cuento Para los Peques, Muchas gracias por Compartirlo! <span><img src="../assets/images/emogi.png" alt="emogi" class="img-emogi"></span><span  class="right grey-text">publicado : 13:01</span></p>
+              </div>
+              <div class="col s12 m12">
+                <input id="input-comment" placeholder="Add a comment.." type="text">
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 border-post">
+            <div id="public-header" class="col s12 m12 ">
+              <br>
+              <div class="col s2 m2 ">
+                <img alt="" class="comentsPhoto img-perfil">
+              </div>
+              <div class="col s10 m10">CLUB DE LECTURA JUVENIL<br>
+                <span class="grey-text">Publicado a las 16:36am</span>
+              </div>
+              <div class="col s12 m12 divider"></div>
+            </div>
+            <div id="public-body" class="col s12 m12 white">
+              <p>Don't Just Exit, Live ♡.</p>
+            </div>
+            <div class="col s12 m12 group-icon white">
+              <a><i class="fa fa-thumbs-o-up icon-public" id="icon-like"></i></a>
+              <a href="#"><i class="fa fa-edit icon-public"></i></a>
+              <a><i class="fa fa-share icon-public"></i></a>
+              <p class="right grey" id="contador"></p>
+              <div class="col s12 m12 divider"></div>
+              <br><br>
+              <div id="add-comment" class="col s12 m12">
+                <div class="col s1 m1">
+                  <img src="../assets/images/perfil1.jpg" alt="" class="img-comment">
+                </div>
+                <p class="col s11 m11 ">Una Frase en Ingles Tan Cool, Muchas Gracias Club de Lectura Juvenil. ;) !! <span><img src="../assets/images/emogi.png" alt="emogi" class="img-emogi"></span><span  class="right grey-text">publicado : 13:01</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 border-post">
+            <div id="public-header" class="col s12 m12 ">
+              <br>
+              <div class="col s2 m2 ">
+                <img alt="" class="comentsPhoto img-perfil">
+              </div>
+              <div class="col s10 m10">CLUB DE LECTURA DE MADRID<br>
+                <span class="grey-text">Publicado a las 16:36am</span>
+              </div>
+              <div class="col s12 m12 divider"></div>
+            </div>
+            <div id="public-body" class="col s12 m12 ">
+              <p>#Repost de @artbymelimel</p>
+              <div class="text-public center">
+                <img src="https://64.media.tumblr.com/0ac244833e98538c7d5e206209bfe5f6/46de267938477f8c-dd/s640x960/8302d8b64e735d424af6731af6c2d14fceb735d7.png" class="img-publicacion" alt="">
+              </div>
+            </div>
+            <div class="col s12 m12 group-icon ">
+              <a><i class="fa fa-thumbs-o-up icon-public" id="icon-like"></i></a>
+              <a href="#"><i class="fa fa-edit icon-public"></i></a>
+              <a><i class="fa fa-share icon-public"></i></a>
+              <p class="right grey" id="contador"></p>
+              <div class="col s12 m12 divider"></div>
+              <br><br>
+              <div id="add-comment" class="col s12 m12">
+                <div class="col s1 m1">
+                  <img src="https://www.ecured.cu/images/thumb/9/98/Nguillen3.jpg/260px-Nguillen3.jpg" alt="" class="img-comment">
+                </div>
+                <p class="col s11 m11 ">Me llego al Corazón, Lo Máximo!! <span><img src="../assets/images/emogi.png" alt="emogi" class="img-emogi"></span><span  class="right grey-text">publicado : 13:01</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="actives hide">
+      <img src="https://i.pinimg.com/236x/6f/18/dc/6f18dc7a9fa1974eaa3a32424d527a01--write-a-book-anne-hathaway.jpg" class="img-perfil">
+      <span>Susana Lucero</span>
+      <br>
+      <img src="https://media.wsimag.com/attachments/eda632825093a581862c88f2e034a468e3eb0a87/store/fill/1090/613/51636ca703ff43c0b025bebf64aee6052afb7ceb72cb70068204ebb8a8ce/Un-hombre-escribe-en-un-cuaderno-sobre-su-escritorio.jpg" class="img-perfil">
+      <span>Mario Andrade</span>
+      <br>
+      <img src="https://www.elcolombiano.com/documents/10157/0/580x387/0c0/580d365/none/11101/DRGU/image_content_35351025_20200308133756.jpg" class="img-perfil">
+      <span>Carla Vega</span>
+      <br>
+      <img src="https://monitordolar.com/wp-content/uploads/2021/10/leer-3.jpg" class="img-perfil">
+      <span>Juana Manriquez</span>
+      <br>
+      <img src="https://www.universia.net/content/dam/universia/imagenes/2020/01/Libros_gratis_descargar/_jcr_content/renditions/thumb-m.jpg" class="img-perfil">
+      <span>Libros en Pdf Gratis</span>
+      <br>
+      <img src="https://1.bp.blogspot.com/-_o6TM1bMSfw/XyNCVnRZq9I/AAAAAAABgh0/LQox6hhYZIcKw8MVkvzx126G9_jl688JACLcBGAsYHQ/s349/Club%2Bde%2Blectura%2Bvirtual%2Bpara%2Bj%25C3%25B3venes.jpeg" class="img-perfil">
+      <span>Club de Lectura Juvenil</span>
+      <br>
+      <img src="https://3.bp.blogspot.com/-EXXWbOrZkhI/VrDw6EHGI5I/AAAAAAAAets/6Z4f06nV5IY/s1600/C%25C3%25B3mo%2Bpreparar%2Bun%2Bclub%2Bde%2Blectura%2Ben%2Buna%2Bbiblioteca%2Bescolar-1.jpg" class="img-perfil">
+      <span>Biblioteca Escolar - Club de Lectura</span>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/data.js">
+
+  </script>
+  <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

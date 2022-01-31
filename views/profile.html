@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- hoja de stylos materialize -->
+  <link type="text/css" rel="stylesheet" href="../vendors/materialize/css/materialize.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- hoja de stylo css -->
+  <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <title>LEDTS</title>
+</head>
+<body >
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <img src="../assets/images/imageonline-co-transparentimage.png" alt=""class="brand-logo left img-logo">
+        <ul class="right show-on-small hide-on-large-only">
+          <li><a href="profile.html"  class="usersComent"></a></li>
+          <li><img class="comentsPhoto img-perfil"></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="profile.html"  id="nameUsers"></a></li>
+          <li><img class=" img-perfil comentsPhoto"></li>
+          <li><a href="home.html" ><i class="fa fa-bars icon white-text"></i>&nbsp;Home</a></li>
+          <li><a href="#"><i class="fa fa-comments icon white-text"></i></a></li>
+          <li><a id="friend-active"><i class="fa fa-user icon white-text"></i></a></li>
+          <li><a href="iniciarSesion.html">Close</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="content-profile">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="mrg card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="center-align">
+              <img class="responsive-img" src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/182980153_1165560157254616_2122678676734411982_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=81PaBe4jqIsAX-n-dp5&_nc_oc=AQnjLYeIQ1YSNPaP3UshwHJ_SXjQhdR3bpgQjuzuDdtGTbaKjcFInXy5unq38fmy6rc&_nc_ht=scontent-lim1-1.xx&oh=00_AT9xHLPpBneq9zHdiLDwgs6HGk_DglvRoKpgJbO4JT97xg&oe=621A3A28" alt="">
+            </div>
+            <div class="col s10">
+            <p><span><i class="fa fa-map-marker grey-text "></i></span>&nbsp&nbsp&nbsp&nbsp&nbsp Lima-Peru <br> <span><i class="fa fa-star-half-o  grey-text" aria-hidden="true"></i></span>&nbsp&nbsp&nbsp&nbsp Seguidores <br> <span><i class="fa fa-envelope-o grey-text" aria-hidden="true"></i></span>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">web.facebook.com/lmar.rrhh/</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m5 mrg">
+      <div class="border-post">
+        <form id="new-publicacion">
+          <textarea id="new-text" class="post-text" placeholder="Whats in your mind today?"></textarea>
+        </form>
+        <div class="post">
+          <button id="btn-text"  type="submit" class="btn right" disabled>Post</button>
+            <ul>
+              <li class="inline"><a href="#"><i class="fa fa-map-marker icon"></i></a></li>
+              <li class="modal-trigger inline" href="#modal1"><a href="#"><i class="fa fa-camera icon "></i> </a></li>
+              <li class="inline"><a href="#"><i class="fa fa-film icon"></i></a></li>
+              <li class="inline"><a href="#"><i class="fa fa-microphone icon"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    <div>
+      <div id="publicacion">
+      </div>
+      <div class="col s12 m12 white">
+        <input id="input-comment" placeholder="Add a comment.." type="text" class="hide">
+      </div>
+    </div>
+    <div>
+      <div id="public-header" class="col s12 m12">
+        <div class="col s2 m2 ">
+          <img src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/182980153_1165560157254616_2122678676734411982_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=81PaBe4jqIsAX-n-dp5&_nc_oc=AQnjLYeIQ1YSNPaP3UshwHJ_SXjQhdR3bpgQjuzuDdtGTbaKjcFInXy5unq38fmy6rc&_nc_ht=scontent-lim1-1.xx&oh=00_AT9xHLPpBneq9zHdiLDwgs6HGk_DglvRoKpgJbO4JT97xg&oe=621A3A28" alt="" class=" img-perfil">
+        </div>
+        <div class="col s10 m10">THEBEST<br>
+          <span class="grey-text">Publicado a las 12:36am</span>
+        </div>
+        <div class="col s12 m12 divider"></div>
+      </div>
+      <br>
+      <div id="public-body" class="col s12 m12 white">
+          <p><center>AMO CADA PEQUEÑA PARTÍCULA DE TU SER🖤 -La Escritora de tus Sueños 🖤</center></p>
+        <div class="text-public center">
+          <img src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/p526x296/97671940_705387600261250_9132526533582258176_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=F4TygVuqC74AX-ZKGKO&_nc_ht=scontent-lim1-1.xx&oh=00_AT_evInwFg7Y6tM9507wnLxkL5gWkSJHWdgVRPZT3_lnUQ&oe=621A9545" class="img-publicacion" alt="">
+        </div>
+      </div>
+      <div class="col s12 m12 group-icon white">
+        <a><i class="fa fa-thumbs-o-up icon-public" id="icon-like"></i></a>
+        <a href="#"><i class="fa fa-edit icon-public"></i></a>
+        <a><i class="fa fa-share icon-public"></i></a>
+        <p class="right grey-text" id="contador"></p>
+        <div class="col s12 m12 divider"></div>
+        <br><br>
+        <div id="add-com" class="col s12 m12">
+          <div class="col s1 m1">
+            <img src="https://i.pinimg.com/236x/6f/18/dc/6f18dc7a9fa1974eaa3a32424d527a01--write-a-book-anne-hathaway.jpg" alt="" class="img-comment">
+          </div>
+          <p class="col s11 m11 "> Oww Me Encanto el Escrito y Que Hermosa Pareja!! <span><img src="../assets/images/emogi.png" alt="emogi" class="img-emogi"></span><span  class="right grey-text">publicado : 13:01</span></p>
+        </div>
+        <div class="col s12 m12">
+          <input id="input-com" placeholder="Add a comment.." type="text">
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="public-header" class="col s12 m12 ">
+        <div class="col s2 m2 ">
+          <img src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/182980153_1165560157254616_2122678676734411982_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=81PaBe4jqIsAX-n-dp5&_nc_oc=AQnjLYeIQ1YSNPaP3UshwHJ_SXjQhdR3bpgQjuzuDdtGTbaKjcFInXy5unq38fmy6rc&_nc_ht=scontent-lim1-1.xx&oh=00_AT9xHLPpBneq9zHdiLDwgs6HGk_DglvRoKpgJbO4JT97xg&oe=621A3A28" alt="" class=" img-perfil">
+        </div>
+        <div class="col s10 m10">STARSALIGN<br>
+          <span class="grey-text">Publicado a las 16:36am</span>
+        </div>
+        <div class="col s12 m12 divider"></div>
+      </div>
+      <div id="public-body" class="col s12 m12 white">
+        <p>La Escritora De Tus Sueños 🖤</p>
+        <div class="text-public center">
+          <img src="https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/73225511_735256397274370_2775901942558528853_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=DRNOSblDbfkAX_MRnxz&_nc_ht=scontent-lim1-1.xx&oh=00_AT8bznoHf7zbQxGbzSJKApLJSYNWkvu3oKj_99dltuofNA&oe=621A9D9C" class="img-publicacion" alt="">
+        </div>
+      </div>
+      <div class="col s12 m12 group-icon white">
+        <a><i class="fa fa-thumbs-o-up icon-public" id="icon-like"></i></a>
+        <a href="#"><i class="fa fa-edit icon-public"></i></a>
+        <a><i class="fa fa-share icon-public"></i></a>
+        <p class="right grey" id="contador"></p>
+        <div class="col s12 m12 divider"></div>
+        <br><br>
+        <div id="add-com" class="col s12 m12">
+          <div class="col s1 m1">
+            <img src="https://media.wsimag.com/attachments/eda632825093a581862c88f2e034a468e3eb0a87/store/fill/1090/613/51636ca703ff43c0b025bebf64aee6052afb7ceb72cb70068204ebb8a8ce/Un-hombre-escribe-en-un-cuaderno-sobre-su-escritorio.jpg" alt="" class="img-comment">
+          </div>
+          <p class="col s11 m11 ">Hermoso Poema  La Escritora De Tus Sueños, Te Luciste!! <span><img src="../assets/images/emogi.png" alt="emogi" class="img-emogi"></span><span  class="right grey-text">publicado : 13:01</span></p>
+        </div>
+        <div class="col s12 m12">
+          <input id="input-com" placeholder="Add a comment.." type="text">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="container-store" class="col m3 mrg">
+    <div class="input-field">
+      <i class="material-icons prefix">search</i>
+      <input type="text" id="filtro">
+      <label>Ingresa tu busqueda</label>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/data.js">
+  </script>
+  <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

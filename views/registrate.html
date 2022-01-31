@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- hoja de stylos bootstrap -->
+  <link type="text/css" rel="stylesheet" href="../vendors/materialize/css/materialize.min.css"/>
+  <!-- hoja de stylo css -->
+  <link rel="stylesheet" href="../css/flexboxgrid.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <title>Red Social LEDTS</title>
+</head>
+<body class="bg-login vh100">
+    <form class="container">
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="center-align">
+            <img class="img-logo" src="../assets/images/imageonline-co-transparentimage.png" alt="logo">
+          </div>
+          <div class="">
+            <h2 class="info-login">REGISTRATE</h2>
+          </div>
+          <div class="input-field col s6">
+            <input id="firstName" type="text" class="validate">
+            <label>Nombre</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="lastName" type="text" class="validate">
+            <label >Apellido</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="emailCreate" type="text" class="validate">
+            <label >Correo Electronico</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="passwordCreate" type="password" class="validate">
+            <label >Contraseña</label>
+          </div>
+          <div class="input-field col s3">
+            <input id="day" type="number" class="validate">
+            <label >Dia</label>
+          </div>
+          <div class="input-field col s6">
+            <select>
+              <option value="" disabled selected>Mes</option>
+              <option >Enero</option>
+              <option >Febrero</option>
+              <option >Marzo</option>
+              <option >Abril</option>
+              <option >Mayo</option>
+              <option >Junio</option>
+              <option >Julio</option>
+              <option >Agosto</option>
+              <option >Septiembre</option>
+              <option >Octubre</option>
+              <option >Noviembre</option>
+              <option >Diciembre</option>
+            </select>
+          </div>
+          <div class="input-field col s3">
+            <input id="año" type="number" class="validate">
+            <label >Año</label>
+          </div>
+
+          <a href="iniciarSesion.html" id="btnCreate" class="waves-effect waves-light btn disabled">Crear nuevo usuario</a>
+
+          <div class="">
+            <p>¿Ya tienes una cuenta? <a href="iniciarSesion.html">Iniciar sesión</a></p>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  <script type="text/javascript" src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../js/data.js"></script>
+  <script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

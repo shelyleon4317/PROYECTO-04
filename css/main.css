@@ -1,0 +1,277 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* index vista splash*/
+.gradient {
+  background: linear-gradient(to bottom right, rgba(208, 236, 83, 0.534) 5%, rgba(245, 38, 107, 0.589));
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+
+.img-index {
+  width:60vh;
+}
+
+.img-load {
+  width:30vh;
+}
+
+/* vista de login */
+.bg-login {
+  background: linear-gradient(to bottom right, rgba(208, 236, 83, 0.534) 5%, rgba(245, 38, 107, 0.589));
+  padding: 31px;
+}
+
+.info-login {
+  color: #5e5c5c;
+  font-size: 18px;
+}
+
+/* header */
+header {
+  position: fixed;
+  width: 100%;
+}
+.img-logo {
+  width: 45vh;
+  height: 50px;
+}
+
+nav {
+  height:100px;
+}
+
+.nav-wrapper {
+  background: linear-gradient(to bottom right, rgb(208, 236, 83) 1%, rgb(245, 38, 107));
+  padding: 25px;
+  height: 100px;
+}
+
+.inline {
+  display: inline;
+}
+
+.post {
+  background-color: rgba(255, 229, 195, 0.548);
+  padding: 7px;
+}
+
+.post-text {
+  border: none;
+  margin-top: 21px;
+}
+
+.icon {
+  color: rgb(58, 78, 77);
+  font-size: 24px;
+  padding: 0 10px;
+}
+
+.icon:hover {
+  color:rgb(247, 159, 58);
+  font-size: 23px;
+}
+
+/* main */
+.content-body {
+  background-color: rgba(247, 234, 210, 0.534);
+  padding-top: 120px;
+}
+/* add friends */
+.img-perfil {
+  height: 50px;
+  width: 55px;
+  border-radius: 7px;
+}
+
+.icon-btn {
+  border: none;
+  background-color: inherit;
+}
+
+#btn-friend {
+  padding: 7px;
+  border-radius: 7px;
+  color: white;
+}
+
+.input-search{
+  border: 1px solid rgb(172, 172, 172) !important;
+  border-radius: 7px !important;
+}
+
+.icon-search {
+  position: relative;
+  bottom: 50px;
+}
+
+.btn-grad {
+  background: linear-gradient(to bottom right, rgb(208, 236, 83) 1%, rgb(245, 38, 107));
+}
+
+.img-emogi {
+  width: 5%;
+}
+
+.img-comment {
+  width: 50px;
+  border-radius: 7px;
+}
+
+/* add publicacion */
+#new-publicacion {
+  background: white;
+}
+
+.icon-public {
+  font-size: 24px;
+  color: rgb(63, 95, 97);
+  cursor: pointer;
+  padding: 16px;
+}
+
+.icon-public:hover {
+  font-size: 21px;
+  color: rgb(253, 186, 60);
+}
+
+#input-comment, #input-com {
+  border: 1px solid rgb(172, 170, 170) !important;
+  border-radius: 10px !important;
+}
+
+#number-likes {
+  color: #2c6151;
+}
+
+.img-publicacion {
+  height: 40vh;
+  width: 100%;
+}
+
+#publicacion {
+  margin-top:18px;
+}
+
+.group-icon {
+  margin-top: -15px;
+}
+
+.img-fondo {
+  background-image: url("../assets/images/listo.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo-size {
+  width: 200px;
+}
+
+.actives {
+  position:absolute;
+  bottom: 5px;
+  right: 2px;
+  position: fixed;
+  padding: 14px;
+  border: white solid 1px !important;
+  background: white;
+}
+
+.onload-img {
+  padding: 10px 50px;
+}
+
+.box-photo {
+  height: 100px;
+  border: 1px solid gray;
+  margin-left: 150px;
+  width: 100px;
+}
+
+/* estilos de profile */
+.fixed {
+  position: relative;
+}
+
+.portada-img{
+  width: 100%;
+  height: 230px;
+}
+
+.gradient {
+  background: linear-gradient(to bottom right, rgb(208, 236, 83) 1%, rgb(245, 38, 107));
+}
+
+.bg-color {
+  background-color: rgba(255, 229, 195, 0.377);
+}
+
+.profile {
+  width: 30vh;
+  height: 110px;
+  border-radius:100px;
+  position: relative;
+  left: 47%;
+  bottom: 95px;
+}
+
+.border-post {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 1em;
+  word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-bottom: 15px;
+}
+
+.content-profile {
+  padding: 75px 30px;
+}
+
+.nav-profile {
+  height: 55px;
+}
+
+.n-profile {
+  height: 170px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.text-name {
+  font-size: 1.5em;
+  color: rgb(32, 31, 31);
+  font-weight: 900;
+}
+
+/*@media (max-width: 768px) {
+  .content-profile {
+    padding: 320px 24px 0 24px;
+  }
+}*/
+
+.size {
+  transform: translateX(25%);
+  width: 250px;
+}
+
+.mrg {
+  margin-top: 50px;
+}
+
+.collection {
+  cursor: pointer;
+
+}
